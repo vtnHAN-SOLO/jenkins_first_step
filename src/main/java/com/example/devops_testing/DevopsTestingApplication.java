@@ -11,7 +11,7 @@ public class DevopsTestingApplication {
 
 	@GetMapping("/test")
 	public String test_message() {
-		return "this is the test message";
+		return "this is the test message, <section for webhook>";
 	}
 
 	public static void main(String[] args) {
