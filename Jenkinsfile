@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = '23127533/springboot-app'
+        IMAGE_NAME = 'kirahigashi/springboot-app'
         DOCKER_CRED = credentials('dockerhub-id')
     }
 
